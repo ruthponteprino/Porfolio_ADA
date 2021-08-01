@@ -103,7 +103,6 @@ body {
 .principal-txt p {
     color: var(--secundary-color);
     font-size: 1.2em;
-    font-weight: bolder;
 }
 
 .principal-txt h3 {
@@ -281,7 +280,7 @@ body {
 /* --- FRASE --- */
 
 .frase {
-    padding: 5em;
+    padding: 10em 4em;
     background: url(./svg/steffi\ lynn.png);
     background-color: var(--primary-color);
     text-align: center;
@@ -377,6 +376,9 @@ body {
     padding: 0.3em;
 }
 
+.form-item p {
+    font-size: 0.7em;
+}
 
 .form input[type="submit"] {
     color: #fff;
@@ -455,7 +457,7 @@ body {
     }
 
     .principal {
-        padding: 4em 0;
+        padding: 7em 0;
     }
 
     .footer-social{
@@ -472,6 +474,10 @@ body {
     
     .contact {
         background: none;
+    }
+
+    #proyectos {
+        margin-bottom: 3em;
     }
 
     .formulario {
