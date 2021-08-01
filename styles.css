@@ -234,12 +234,6 @@ body {
     font-weight: bolder;
 }
 
-.card-cont:hover {
-    color: var(--bg-white);
-    border-color: var(--bg-grey);
-    background-color: var(--primary-color);
-    font-weight: bolder;
-}
 
 .conocimientos {
     padding: 2em 3em;
@@ -252,6 +246,13 @@ body {
 
 .conocimientos:hover svg {
     filter: grayscale(0%);
+}
+
+.proyectos:hover {
+    color: var(--bg-white);
+    border-color: var(--bg-grey);
+    background-color: var(--primary-color);
+    font-weight: bolder;
 }
 
 .proyectos img{
