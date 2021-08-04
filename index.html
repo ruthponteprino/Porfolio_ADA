@@ -25,9 +25,14 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Hola! Me llamo Ruth y soy desarrolladora front-end. Este es mi portfolio realizado para el curso de ADA.">
+    <meta name="keywords" content="frontend,developer,HTML,CSS,portfolio,ADA,JavaScript,REACT,SASS">
 </head>
 <body>
     <div id="container">
+
+        <!--    HEADER & MENU    -->
+
         <header id="header">
             <ul class="menu">
                 <li class="menu-link"><a href="#inicio">Inicio</a></li>
@@ -36,15 +41,21 @@
                 <li class="menu-link-contacto"><a href="#contacto">Contacto</a></li>
             </ul>
         </header>
-        <main id="inicio" class="principal">
+
+        <!--    PRINCIPAL    -->
+
+        <div id="inicio" class="principal">
                 <div class="principal-txt">
                     <h3>¡Hola Mundo :) !</h3>
                     <h1>Me llamo Ruth</h1>
                     <p>Soy desarrolladora Front-End</p>
                     <div class="btn"><a href="#proyectos">Lo que hago</a></div>
                 </div>
-                <img class="principal-img" src="./svg/planet-earth-global-svgrepo-com.svg" alt="planet earth">
-        </main>
+                <img class="principal-img" src="./img/planet-earth-global-svgrepo-com.svg" alt="planet earth">
+            </div>
+
+        <!--    CONOCIMIENTOS    -->    
+
         <section id="conocimientos" class="section">
             <h2>Mis Conocimientos</h2>
             <div class="card uno">
@@ -74,42 +85,50 @@
                 </div>
             </div>
         </section>
+
+        <!--   FRASE    -->
+
         <div class="frase">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="4em" height="4em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20"><path d="M9.49 13.22c0-.74-.2-1.38-.61-1.9c-.62-.78-1.83-.88-2.53-.72c-.29-1.65 1.11-3.75 2.92-4.65L7.88 4c-2.73 1.3-5.42 4.28-4.96 8.05C3.21 14.43 4.59 16 6.54 16c.85 0 1.56-.25 2.12-.75s.83-1.18.83-2.03zm8.05 0c0-.74-.2-1.38-.61-1.9c-.63-.78-1.83-.88-2.53-.72c-.29-1.65 1.11-3.75 2.92-4.65L15.93 4c-2.73 1.3-5.41 4.28-4.95 8.05c.29 2.38 1.66 3.95 3.61 3.95c.85 0 1.56-.25 2.12-.75s.83-1.18.83-2.03z" fill="#fff"/></svg>
             <P>Un día sin risa es un día desperdiciado.</P>
             <strong>Charles Chaplin</strong>
         </div>
+
+        <!--    PROYECTOS    -->
+
         <section id="proyectos" class="section">
             <h2>Mis Proyectos</h2>
             <div class="card dos">
                 <a href="#"><div class="card-cont proyectos">
-                    <img src="./svg/portfolio-bag-svgrepo-com.svg" alt=""><p>Portfolio</p>
+                    <img src="./img/portfolio-bag-svgrepo-com.svg" alt=""><p>Portfolio</p>
                 </div></a>
 
                 <a href="#"><div class="card-cont proyectos">
-                    <img src="./svg/painter-artist-svgrepo-com.svg" alt=""><p>Generador de memes</p>
+                    <img src="./img/painter-artist-svgrepo-com.svg" alt=""><p>Generador de memes</p>
                 </div></a>
 
                 <a href="#"><div class="card-cont proyectos">
-                    <img src="./svg/game-console-gamer-svgrepo-com.svg" alt=""><p>Match 3</p>
+                    <img src="./img/game-console-gamer-svgrepo-com.svg" alt=""><p>Match 3</p>
                 </div></a>
 
                 <a href="#"><div class="card-cont proyectos">
-                    <img src="./svg/wallet-svgrepo-com.svg" alt=""><p>Controlador de gastos</p>
+                    <img src="./img/wallet-svgrepo-com.svg" alt=""><p>Controlador de gastos</p>
                 </div></a>
 
                 <a href="#"><div class="card-cont proyectos">
-                    <img src="./svg/calendar-svgrepo-com.svg" alt=""><p>Administrador de reuniones</p>
+                    <img src="./img/calendar-svgrepo-com.svg" alt=""><p>Administrador de reuniones</p>
                 </div></a>
 
                 <a href="#"><div class="card-cont proyectos">
-                    <img src="./svg/app-svgrepo-com.svg" alt=""><p>Todo app</p>
+                    <img src="./img/app-svgrepo-com.svg" alt=""><p>Todo app</p>
                 </div></a>
 
                 <a href="#"><div class="card-cont proyectos">
-                    <img src="./svg/video-player-movie-svgrepo-com.svg" alt=""><p>Buscador de peliculas</p>
+                    <img src="./img/video-player-movie-svgrepo-com.svg" alt=""><p>Buscador de peliculas</p>
                 </div></a>
             </div>
+
+        <!--    CONTACTO    -->    
 
         </section>
         <section id="contacto" class="section contact"> 
@@ -119,11 +138,11 @@
                     <ul class="form-link">
                         <li class="form-link-item"><a href="https://twitter.com/rudponte" target="_blank"><i class="fa fa-twitter icon"><span>@rudponte</span></i></a></li>
                         <li class="form-link-item"><a href="https://github.com/ruthponteprino" target="_blank"><i class="fa fa-github-alt icon"><span>/ruthponteprino</span></i></a></li>
-                        <li class="form-link-item"><a href="kedin.com/in/ruth-ponteprino-293354200/" target="_blank"><i class="fa fa-linkedin icon"><span>/RuthPonteprino</span></i></a></li>
+                        <li class="form-link-item"><a href="https://linkedin.com/in/ruth-ponteprino-293354200/" target="_blank"><i class="fa fa-linkedin icon"><span>/RuthPonteprino</span></i></a></li>
                         <li class="form-link-item"><a href="mailto:rponteprino@gmail.com" target="_blank"><i class="fa fa-envelope icon"><span>rponteprino@gmail.com</span></i></a></li>
                     </ul>
                 </div>
-                <form action="" class="form">
+                <form action="" method="get" class="form">
                     <h2>Escribime</h2>
                     <div class="form-container">
                         <div class="form-item">
@@ -141,7 +160,7 @@
                     </div>
                     <div class="form-item">
                         <label for="mensaje">Mensaje*</label>
-                        <textarea name="mensaje" cols="2" rows="2" placeholder="Escribe aquí tu mensaje" required></textarea>
+                        <textarea name="mensaje" cols="10" rows="5" placeholder="Escribe aquí tu mensaje" required></textarea>
                         <p>* campos obligatorios</p>
                     </div>
                     <input type="submit" value="Enviar">
@@ -150,7 +169,7 @@
             </div>
         </section>
 
-
+        <!--    FOOTER   -->
 
         <footer id="footer">
             <ul class="menu footer">
@@ -163,7 +182,7 @@
                 <div class="footer-social-link">
                     <a href="https://twitter.com/rudponte" class="fa fa-twitter" target="_blank"></a>
                     <a href="https://github.com/ruthponteprino" class="fa fa-github-alt" target="_blank"></a>
-                    <a href="kedin.com/in/ruth-ponteprino-293354200/" class="fa fa-linkedin" target="_blank"></a>
+                    <a href="https://linkedin.com/in/ruth-ponteprino-293354200/" class="fa fa-linkedin" target="_blank"></a>
                     <a href="mailto:rponteprino@gmail.com" class="fa fa-envelope" target="_blank"></a>
                 </div>
                 <p>Hecho con <i class="em em-yellow_heart" aria-role="presentation" aria-label="YELLOW HEART"></i> por Ruth</p>

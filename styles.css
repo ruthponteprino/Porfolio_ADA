@@ -7,9 +7,7 @@
     --bg-white: #fff;
     --bg-grey: #F6F7FB;
     --font-color: #000;
-    --font-color-alt:rgb(169, 169, 169);
-    --title-color: #000;
-
+    --color-alt: #bfbfbf;
     --type-writerSpeed: 3s;
 }
 
@@ -91,7 +89,7 @@ body {
 .principal {
     height: 100vh;
     padding-top: 4em;
-    background: url(./svg/bg_grid.jpg);
+    background: url(./img/bg_grid.jpg);
     background-color: var(--bg-white);
     display: flex;
         align-items: center;
@@ -225,7 +223,7 @@ body {
     background-color: var(--bg-white);
     text-align: center;
     border-radius: 15px;
-    border: 1px solid #bfbfbf;
+    border: 1px solid var(--color-alt);
     width: 6.25em;
     color: var(--font-color);
 }
@@ -249,9 +247,9 @@ body {
 }
 
 .proyectos:hover {
-    color: var(--bg-white);
-    border-color: var(--bg-grey);
-    background-color: var(--primary-color);
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    background-color: var(--bg-grey);
     font-weight: bolder;
 }
 
@@ -282,7 +280,7 @@ body {
 
 .frase {
     padding: 10em 4em;
-    background: url(./svg/steffi\ lynn.png);
+    background: url(./img/steffi\ lynn.png);
     background-color: var(--primary-color);
     text-align: center;
 }
@@ -295,7 +293,7 @@ body {
 /* --- FORM --- */
 
 .contact {
-    background: url(./svg/bg_grid.jpg);
+    background: url(./img/bg_grid.jpg);
 }
 
 .formulario {
@@ -307,7 +305,7 @@ body {
     padding: 3em;
     justify-content: space-between;
     border-radius: 20px;
-    border: 1px solid #bfbfbf;
+    border: 1px solid var(--color-alt);
 }
 
 .form input[type="text"], input[type="email"], textarea {
@@ -416,7 +414,7 @@ body {
 
 .menu-link-footer a{
     text-transform: uppercase;
-    color: #fff;
+    color: var(--bg-white);
 }
 
 .footer-social {
@@ -432,20 +430,18 @@ body {
 
 .footer-social-link a {
     color: var(--primary-color);
-    background-color: white;
+    background-color: var(--bg-white);
     font-size: 1.2rem;
     border-radius: 50%;
     border: 1px solid;
     padding: 0.5em;
     margin: 0.3em;
-    /* width: 16px; */
-    /* align-items: center; */
     line-height: 16px;
 }
 
 .footer-social-link a:hover  {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--bg-white);
 }
 
 
@@ -458,7 +454,7 @@ body {
     }
 
     .principal {
-        padding: 2em 0 13rem 0;
+        padding: 2em 0 5rem 0;
     }
 
     .footer-social{
@@ -482,7 +478,7 @@ body {
     }
 
     .formulario {
-        background: url(./svg/bg_grid.jpg);
+        background: url(./img/bg_grid.jpg);
         flex-direction: column;
         width: auto;
         border: none;
@@ -505,7 +501,4 @@ body {
 
   
 
-  
-
-/* terminar iconos de contacto y flex en version tablet */
-/* organizar y renombrar etiquetas */
+ 
